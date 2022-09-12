@@ -19,10 +19,10 @@ export const analytics = AnalyticsBrowser.load({ writeKey: "WyeQ5YVlqPdhnZijQrDt
 
 export class SegmentAnalytics {
   eventName: string;
-  eventHeader?: string | null;
+  eventHeader?: string;
   props?: any;
-  name?: string | null;
-  email?: string | null;
+  name?: string;
+  email?: string;
 
   constructor(eventHeader: string, eventName: string, props?: any, name?: string, email?: string) {
     this.eventHeader = eventHeader;
