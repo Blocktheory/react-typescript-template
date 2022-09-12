@@ -3,11 +3,11 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Home";
 
-declare global {
-  interface Window {
-    analytics: any;
-  }
-}
+// declare global {
+//   interface Window {
+//     analytics: any;
+//   }
+// }
 
 function App() {
   return (
